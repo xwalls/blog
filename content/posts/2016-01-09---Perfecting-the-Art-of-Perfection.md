@@ -1,21 +1,93 @@
 ---
-title: Perfecting the Art of Perfection
-date: "2016-09-01T23:46:37.121Z"
-template: "post"
+template: post
+title: 'Tarea #3 de estadistica'
+slug: Muestreo
 draft: false
-slug: "perfecting-the-art-of-perfection"
-category: "Design Inspiration"
+date: 2020-02-03T20:29:37.121Z
+description: 'Esta es la tarea #3'
+category: Estadistica
 tags:
-  - "Handwriting"
-  - "Learning to write"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
-socialImage: "/media/image-2.jpg"
+  - Handwriting
+  - Learning to write
 ---
+<!--StartFragment-->
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+```python
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-2.jpg)
+```
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. 
+|     | ri       | xi       |
+| --- | -------- | -------- |
+| 0   | 0.077369 | 0.020131 |
+| 1   | 0.400035 | 0.127721 |
+| 2   | 0.394302 | 0.125343 |
+| 3   | 0.979911 | 0.976891 |
+| 4   | 0.401402 | 0.128291 |
+| 5   | 0.042507 | 0.010859 |
+| 6   | 0.240309 | 0.068711 |
+| 7   | 0.223109 | 0.063114 |
+| 8   | 0.036212 | 0.009221 |
+| 9   | 0.545641 | 0.197217 |
+| 10  | 0.259003 | 0.074940 |
+| 11  | 0.096397 | 0.025341 |
+| 12  | 0.050970 | 0.013079 |
+| 13  | 0.309747 | 0.092674 |
+| 14  | 0.290643 | 0.085849 |
+| 15  | 0.646604 | 0.260041 |
+| 16  | 0.645787 | 0.259464 |
+| 17  | 0.424885 | 0.138296 |
+| 18  | 0.791549 | 0.392012 |
+| 19  | 0.366248 | 0.114025 |
+| 20  | 0.944259 | 0.721759 |
+| 21  | 0.534874 | 0.191362 |
+| 22  | 0.873547 | 0.516971 |
+| 23  | 0.650333 | 0.262693 |
+| 24  | 0.350351 | 0.107831 |
+| 25  | 0.319391 | 0.096192 |
+| 26  | 0.768246 | 0.365520 |
+| 27  | 0.872284 | 0.514486 |
+| 28  | 0.039264 | 0.010014 |
+| 29  | 0.814116 | 0.420658 |
+| 30  | 0.316775 | 0.095233 |
+| 31  | 0.944670 | 0.723609 |
+| 32  | 0.745966 | 0.342572 |
+| 33  | 0.019765 | 0.004991 |
+| 34  | 0.489044 | 0.167868 |
+| 35  | 0.179289 | 0.049396 |
+| 36  | 0.328243 | 0.099465 |
+| 37  | 0.612752 | 0.237172 |
+| 38  | 0.766562 | 0.363709 |
+| 39  | 0.319405 | 0.096197 |
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+|     | linf   | lsup   | fabsoluta | frelativa | fporcentual | Facumulada | Facmporcentual |
+| --- | ------ | ------ | --------- | --------- | ----------- | ---------- | -------------- |
+| 0   | 0.0050 | 0.1670 | 22        | 0.550     | 55.0        | 22         | 55.0           |
+| 1   | 0.1670 | 0.3290 | 7         | 0.725     | 17.5        | 29         | 72.5           |
+| 2   | 0.3290 | 0.4909 | 5         | 0.850     | 12.5        | 34         | 85.0           |
+| 3   | 0.4909 | 0.6529 | 2         | 0.900     | 5.0         | 36         | 90.0           |
+| 4   | 0.6529 | 0.8149 | 2         | 0.950     | 5.0         | 38         | 95.0           |
+| 5   | 0.8149 | 0.9769 | 1         | 0.975     | 2.5         | 39         | 97.5           |
+
+```python
+
+```
+
+```
+
+```
+
+![png](static/media/output_4_1.png)
+
+<!--EndFragment-->
