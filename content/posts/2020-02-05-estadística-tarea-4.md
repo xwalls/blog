@@ -8,6 +8,9 @@ description: Analizando los datos de mis viajes de uber.
 category: Estadística
 tags:
   - Estadística
+output:
+  html_document:
+    css: styles.css
 ---
 <table border="1" class="dataframe">
   <thead>
