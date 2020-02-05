@@ -1,7 +1,7 @@
 ---
 template: post
 title: Estadística - Tarea 3
-slug: tarea3
+slug: 1,tarea3.pdf
 draft: false
 date: 2020-02-05T15:39:32.487Z
 description: >-

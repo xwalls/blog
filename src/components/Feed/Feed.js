@@ -1,6 +1,8 @@
 // @flow strict
 import React from 'react';
 import moment from 'moment';
+import 'moment/locale/es'
+moment.locale('es')
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
@@ -8,8 +10,20 @@ import styles from './Feed.module.scss';
 type Props = {
   edges: Edges
 };
+function truncate(str) {
+  let slug = str.slice(7)
+  let values = slug.split(',')
+  // console.log(values);
+  if(values[0] == 1){
+    return 'pdfs/'+values[1]
+  } else {
+    return str
+  }
+}
 
 const Feed = ({ edges }: Props) => (
+
+
   <div className={styles['feed']}>
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
@@ -23,10 +37,10 @@ const Feed = ({ edges }: Props) => (
           </span>
         </div>
         <h2 className={styles['feed__item-title']}>
-          <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
+          <a className={styles['feed__item-title-link']} href={truncate(edge.node.fields.slug)}>{edge.node.frontmatter.title}</a>
         </h2>
         <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
+        <a href={truncate(edge.node.fields.slug)} className={styles['feed__item-readmore']}>Leer Mas</a>
       </div>
     ))}
   </div>
