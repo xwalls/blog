@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'Tarea #3 de estadistica'
+title: Estadistica - Tarea 3
 slug: Muestreo
 draft: false
 date: 2020-02-03T20:29:37.121Z
