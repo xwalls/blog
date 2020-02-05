@@ -1,10 +1,12 @@
 ---
 template: post
-title: Estadistica - Tarea 1
+title: Estadistica - Tarea 1 y 2
 slug: un slug
 draft: false
 date: 2020-02-05T03:13:13.494Z
-description: hola
+description: >-
+  Ejercicio #2.3 del libro de Muestreo Estadístico Conceptos Y Problemas
+  Resueltos de Perez Lopez Cesar
 category: Estadistica
 tags:
   - estadistica
